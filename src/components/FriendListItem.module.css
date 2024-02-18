@@ -1,0 +1,11 @@
+.avatarFriend {
+  border-radius: 50%;
+}
+
+.onlineFriend {
+  color: green;
+}
+
+.offlineFriend {
+  color: red;
+}

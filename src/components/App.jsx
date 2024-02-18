@@ -1,15 +1,15 @@
-import styles from '../components/App.css'
-import Profile from "./Profile";
-import userData from '../userData.json'
+import Profile from './Profile';
+import userData from './userData.json'
 import FriendList from './FriendList';
 import friends from '../friends.json';
 import TransactionHistory from './TransactionHistory';
 import transactions from '../transactions.json';
 
+
 const App = () => {
   return (
     <>
-      <Profile
+      <Profiles
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
