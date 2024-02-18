@@ -2,10 +2,16 @@
   border-radius: 50%;
 }
 
+.friendName {
+  text-align: center;
+}
+
 .onlineFriend {
   color: green;
+  text-align: center;
 }
 
 .offlineFriend {
   color: red;
+  text-align: center;
 }

@@ -1,7 +1,7 @@
 
 import styles from './FriendListItem.module.css';
 
-export default FriendListItem = ({ avatar, name, isOnline }) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <div>
       <img
@@ -10,10 +10,12 @@ export default FriendListItem = ({ avatar, name, isOnline }) => {
         alt="Avatar"
         width="48"
       />
-      <p>{name}</p>
+      <p className={styles.friendName}>{name}</p>
       <p className={isOnline ? styles.onlineFriend : styles.offlineFriend}>
         {isOnline ? 'Online' : 'Offline'}
       </p>
     </div>
   );
 };
+
+export default FriendListItem;

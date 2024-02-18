@@ -1,5 +1,6 @@
 import styles from './Profile.module.css';
-export default Profile = ({ name, tag, location, image, stats }) => {
+
+const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={styles.profileContainer}>
       <div>
@@ -30,3 +31,4 @@ export default Profile = ({ name, tag, location, image, stats }) => {
   );
 };
 
+export default Profile;
